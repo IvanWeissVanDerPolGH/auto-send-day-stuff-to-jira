@@ -9,11 +9,13 @@ from datetime import datetime as dt
 from time import gmtime, sleep, strftime
 import json
 
-jira_user = "ivan"
-jira_pass = "ivan"
+jira_user = "user"
+jira_pass = "pass"
 
-nl_protocol_page = "http://192.168.1.3:8080/browse/EBA-11877"
-jiraPage = "http://192.168.1.3:8080/secure/Dashboard.jspa"
+            //jira url 
+main_link = "http://xxx.xxx.x.x:8080"
+nl_protocol_page = main_link + "/browse/EBA-11877"
+jiraPage = main_link + "/secure/Dashboard.jspa"
 user_XPATH = "/html/body/div[1]/section/dashboard/div[1]/div/div[5]/div/div[2]/div/div/form/div[1]/input"
 pass_XPATH = "/html/body/div[1]/section/dashboard/div[1]/div/div[5]/div/div[2]/div/div/form/div[2]/input"
 login_button = "/html/body/div[1]/section/dashboard/div[1]/div/div[5]/div/div[2]/div/div/form/div[4]/div/input"
