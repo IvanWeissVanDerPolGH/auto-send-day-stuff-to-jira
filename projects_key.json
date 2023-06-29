@@ -1,8 +1,9 @@
 {
     "keys": {
-        "NL_Protocol": "http://192.168.1.3:8080/browse/EBA-11877",
-        "lunch": "",
-        "WPG meeting": "",
-        "trench2": "http://192.168.1.3:8080/browse/EBA-12685"
+        //ticket_path = path to open ticket in jira 
+        "NL_Protocol": "ticket_path",
+        "lunch": "ticket_path",
+        "WPG meeting": "ticket_path",
+        "trench2": "ticket_path"
     }
 }
